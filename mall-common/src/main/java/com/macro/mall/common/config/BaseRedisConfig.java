@@ -24,6 +24,8 @@ import java.time.Duration;
  * Redis基础配置
  * Created by macro on 2020/6/19.
  */
+
+//@Configuration  公共包 不加不会初始化内部的Bean；真正使用的模块实现此类并添加@Configuration即可复用
 public class BaseRedisConfig {
 
     @Bean
